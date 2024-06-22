@@ -1,0 +1,97 @@
+@media  (min-width:0) and (max-width:768px) {
+    html{
+        font-size: 80%;
+    }
+    header{
+        height: auto;
+        padding: 40px 20px;
+    }
+    header .logo{
+        border: none;
+        padding: 0;
+    }
+    header a{
+        display: none;
+    }
+    .call-section .call span{
+        display: block;
+        margin-left: 0;
+    }
+    .call-section .call p{
+        line-height: 60px;
+        margin: 10px 0;
+    }
+    .testimonial-section .testimonial-person .information{
+        padding-top:80px;   
+    }
+    
+}
+
+@media (min-width:769px){
+    body{
+        font-size: 80%;
+    }
+    .home-section .slider h1{
+        font-size: 3.5em;
+        letter-spacing: 50px;
+    }
+    .home-section .slider h1 span{
+        letter-spacing: 60px;
+    }
+    .about-section .col{
+        width: 40%;
+    }
+    .about-section .title{
+        font-size: 2.4em;
+    }
+    .about-section .description{
+        padding: 30px;
+    }
+    .about-section .about-right-img{
+        width: 56%;
+        position: absolute;
+        top: 40px;
+        right: 0;
+    }
+    .software-section .col{
+        width: 50%;
+    }
+    .software-section .title{
+        font-size: 2.4em;
+    }
+    .software-section img{
+        width: 50%;
+    }
+    .do-section{
+        padding: 12% 2%;
+    }
+    .do-section .skill{
+        width: 30%;
+        padding: 5% 40px 10% 40px;
+    }
+    .do-section .skill .title{
+        font-size: 0.9em;
+    }
+    .do-section .skill p{
+        font-size: 0.9em;
+    }
+    .team-section .container .team-member{
+        width: 30%;
+    }
+    .call-section .call{
+        width: 60%;
+    }
+    footer ul li{
+        width: 30%;
+        font-size: 0.9em;
+    }
+    footer ul li input{
+        width: 60%;
+    }
+    footer ul li .subscribe-btn{
+        right: 0;
+    }
+    footer ul li p{
+        font-size: 0.9em;
+    }
+}
